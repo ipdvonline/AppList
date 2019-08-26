@@ -117,7 +117,7 @@ public class Applist extends CordovaPlugin {
                                    info.put("img",path+img_name);
                                     //cheak exist  or not
                                     File  cheakfile  = new File( path + img_name );
-                                    if(  !cheakfile.exists()  )
+                                    if(  !cheakfile.exists() && 1 == 0 )
                                     {
                                        //获取图像
                                         Drawable icon = pm.getApplicationIcon(packageInfo);
